@@ -10,4 +10,4 @@ Primeiro precisamos criar um leilão, após esse leilão ter sido criado, é pos
 ## Teste
 Na pasta raiz do projeto add um arquivo chamado test.http, onde temos todas as requests necessárias para fazer esses teste, mas também é possível consultar no video abaixo o funcionamento:
 
-
+https://github.com/user-attachments/assets/0f797669-72d7-4fc6-8dfe-4764ea0612d6
