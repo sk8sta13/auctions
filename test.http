@@ -1,0 +1,37 @@
+@url = http://localhost:8080
+@protocol = HTTP/1.1
+@contentType = application/json
+
+###
+
+GET {{url}}/auction/26bec540-4506-4233-9157-370a687b10e9 {{protocol}}
+
+###
+
+GET {{url}}/auction?status=0 {{protocol}}
+
+###
+
+POST {{url}}/auction {{protocol}}
+Content-Type: {{contentType}}
+
+{
+    "product_name": "Bicicleta",
+    "category": "Mobilidade",
+    "description": "Bicicleta aro 26 Caloi"
+}
+
+###
+
+GET  {{url}}/user/0a687b10-4506-4233-9157-3726bec540e9 {{protocol}}
+
+###
+
+POST {{url}}/bid {{protocol}}
+Content-Type: {{contentType}}
+
+{
+    "user_id": "0a687b10-4506-4233-9157-3726bec540e9",
+    "auction_id": "",
+    "amount": 50.2
+}
